@@ -1,4 +1,4 @@
-#Normalizing multiple-row-record in a table (bank statement example)
+# Normalizing multiple-row-record in a table (bank statement example)
 
 ## Subject description
 
@@ -6,14 +6,14 @@
 
 Get a table with normalized records. One record corresponds to one row.
 
-###Original Excel file
+### Original Excel file
 
 ![](demo_images/input_file_view.png)
 Transaction information has been stored in several rows. The second and subsequent rows are optional. This format 
 does not allow sorting or selection. Also, the optional rows have merged cells, which complicates the easy *pandas* 
 application.
 
-##Solution
+## Solution
 
 - Load file in text representation (row-by-row).
 - Separate the column layout with a tab symbol.
